@@ -21,6 +21,7 @@ body {
 	min-width: 320px;
 	margin: 0 auto;
 	padding: 0;
+	position: relative;
 }
 .container {
 	max-width: $container-width;
@@ -57,11 +58,6 @@ input[type="text"] {
 	outline: none;
 	transition: 0.3s;
 	border: none;
-
-	// &:focus {
-	// 	box-shadow: 0 0 5px rgba(10,125,224,.5);
- //    border: 1px solid rgba(10,125,224,.6);
-	// }
 }
 
 .img-responsive {
@@ -74,6 +70,7 @@ input[type="text"] {
 @import 'partials/menu';
 @import 'partials/header';
 @import 'partials/footer';
+@import 'partials/auth-modal';
 
 /* PAGES */
 @import 'pages/main';

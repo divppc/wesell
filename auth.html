@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
     <link rel="shortcut icon" href="favicon.ico"/>
-    <title>WeSell | Homepage</title>
+    <title>WeSell | Authorization</title>
   </head>
   <body>
     <header>
@@ -916,5 +916,75 @@
         </div>
       </div>
     </footer>
+    <div class="modal-bg"></div>
+    <div class="modal auth">
+      <div class="close-btn"></div>
+      <div class="logo"><img src="assets/images/logo.png" alt="WeSell"/></div>
+      <div class="panel">
+        <input type="radio" id="login-tab" checked="checked" name="auth-toggle"/>
+        <label for="login-tab">Login</label>
+        <input type="radio" id="register-tab" name="auth-toggle"/>
+        <label for="register-tab">Register</label>
+        <div class="tab login">
+          <form action="#">
+            <div class="input-field">
+              <div class="input-icon"><i class="mail-input"></i></div>
+              <div class="input-container">
+                <input type="email" placeholder="Email" required="required"/>
+              </div>
+            </div>
+            <div class="input-field">
+              <div class="input-icon"><i class="password-input"></i></div>
+              <div class="input-container">
+                <input type="password" placeholder="Password" required="required"/>
+              </div>
+            </div>
+            <div class="password-actions">
+              <div class="remember-me">
+                <input type="checkbox" id="remember-me"/>
+                <label for="remember-me">Remember me</label>
+              </div>
+              <div class="password-recovery"><a href="#">Forgot Password?</a></div>
+            </div>
+            <div class="btn-field">
+              <input type="submit" value="Sign in"/>
+            </div>
+            <div class="btn-field"><a href="#"><i class="wechat-icon"></i><span>SIGN IN WITH WECHAT</span></a></div>
+          </form>
+        </div>
+        <div class="tab register">
+          <form action="#">
+            <div class="input-field">
+              <div class="input-icon"><i class="mail-input"></i></div>
+              <div class="input-container">
+                <input type="email" placeholder="Email" required="required"/>
+              </div>
+            </div>
+            <div id="email-confirmation" class="input-field">
+              <div class="input-icon"><i class="mail-input-confirm"></i></div>
+              <div class="input-container">
+                <input type="email" placeholder="Confirm Email" required="required"/>
+              </div>
+            </div>
+            <div class="input-field">
+              <div class="input-icon"><i class="password-input"></i></div>
+              <div class="input-container">
+                <input type="password" placeholder="Password" required="required"/>
+              </div>
+            </div>
+            <div class="input-field">
+              <div class="input-icon"><i class="password-input-confirm"></i></div>
+              <div class="input-container">
+                <input type="password" placeholder="Confirm Password" required="required"/>
+              </div>
+            </div>
+            <div class="btn-field">
+              <input type="submit" value="Register"/>
+            </div>
+            <div class="btn-field"><a href="#"><i class="wechat-icon"></i><span>SIGN UP WITH WECHAT</span></a></div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
