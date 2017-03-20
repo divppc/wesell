@@ -160,32 +160,32 @@
 
 			i {
 				display: block;
-				margin: 13px 0 0 11px;
+				margin: 15px 0 0 13px;
 			}
 		}
 	}
 
 	i.mail-input {
 		width: 15px;
-		height: 17px;
-		background: url("assets/images/auth-icons.png") no-repeat 0px -19px;
+		height: 11px;
+		background: url("assets/images/email_icon_1.png") no-repeat center;
 	}
 
 	i.mail-input-confirm {
-		width: 22px;
-		height: 20px;
-		background: url("assets/images/auth-icons.png") no-repeat 0px -35px;
+		width: 23px;
+		height: 18px;
+		background: url("assets/images/email_icon_2.png") no-repeat center;
 	}
 
 	i.password-input {
-		width: 17px;
-		height: 16px;
-		background: url("assets/images/auth-icons.png") no-repeat 0px -57px;
+		width: 15px;
+		height: 17px;
+		background: url("assets/images/auth-icons.png") no-repeat 0px -19px;
 	}
 	i.password-input-confirm {
-		width: 23px;
+		width: 22px;
 		height: 20px;
-		background: url("assets/images/auth-icons.png") no-repeat 0px -73px;
+		background: url("assets/images/auth-icons.png") no-repeat 0px -35px;
 	}
 }
 
