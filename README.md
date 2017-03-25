@@ -7,3 +7,4 @@ Category grid view http://wesell.div.agency/category-grid.html <br>
 Category list view http://wesell.div.agency/category-list.html <br>
 Product page http://wesell.div.agency/product_view1.html <br>
 Cart http://wesell.div.agency/cart.html <br>
+Manage store http://wesell.div.agency/manage-store.html <br>
