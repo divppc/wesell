@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
     <link rel="shortcut icon" href="favicon.ico"/>
-    <title>WeSell | Manage Store</title>
+    <title>WeSell | Manage Store add product view 2</title>
   </head>
   <body>
     <header class="inner">
@@ -797,309 +797,232 @@
             </ul>
           </div>
           <div class="manage-content">
-            <div class="title-panel">
-              <div class="counter">159 Products</div>
-              <div class="search">
-                <div class="search-container">
-                  <input type="text" placeholder="Search"/>
-                </div>
-                <div class="new-product"><a href="#" class="btn">New product</a></div>
-              </div>
+            <div class="title-panel add-product-item">
+              <div class="subtitle">New Product</div>
+              <div class="submit-btns"><a href="#" class="btn save">Save</a><a href="#" class="btn cancel">Cancel</a></div>
             </div>
-            <input type="radio" name="view" id="fixed" checked="checked" class="price-type-toggler"/>
-            <label for="fixed" class="fixed-label"> <span class="toggler">FIXED PRICE</span></label>
-            <input type="radio" name="view" id="auctions" class="price-type-toggler"/>
-            <label for="auctions" class="auctions-label"> <span class="toggler">AUCTIONS</span></label>
-            <div class="data fixed-items">
-              <div class="table-filters">
-                <div class="select">
-                  <input type="checkbox" id="select-all-1"/>
-                  <label for="select-all-1">Select all</label>
-                </div>
-                <div class="fields">
-                  <div class="select-container">
-                    <label for="category">Category</label>
-                    <select id="category" name="category">
-                      <option value="all">All</option>
-                      <option value="all">Phones</option>
-                      <option value="all">Other</option>
-                    </select>
-                  </div>
-                  <div class="select-container">
-                    <label for="inventory">Inventory</label>
-                    <select id="inventory" name="inventory">
-                      <option value="positive">In stock</option>
-                      <option value="negative">Out of stock</option>
-                    </select>
-                  </div>
-                </div>
+            <div class="add-container">
+              <div class="title-line">
+                <div class="field-name">Product Title</div>
+                <input type="text" required="required"/>
               </div>
-              <table class="store-table">
-                <thead>
-                  <tr>
-                    <th colspan="3">Name</th>
-                    <th>Watchers</th>
-                    <th>Price</th>
-                    <th>Inventory</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_1"/>
-                      <label for="choosen_1"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item1.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>DDPai mini2 Dash Cam WiFi Car DVR 1440P Ultra HD Car Camera Rotatable Lens Recorder</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">2</td>
-                    <td data-title="Price" class="price">¥ 1 580</td>
-                    <td data-title="Inventory" class="inventory">
-                      <div class="positive">In Stock</div>
-                    </td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_2"/>
-                      <label for="choosen_2"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item2.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>Meizu M5 Note Prime 3GB 32GB Mobile Phone 13MP Fingerprint 4000mAh</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">0</td>
-                    <td data-title="Price" class="price">¥ 2 400</td>
-                    <td data-title="Inventory" class="inventory">
-                      <div class="positive">In Stock</div>
-                    </td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_3"/>
-                      <label for="choosen_3"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item3.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>ThundeRobot G150T-D2 Gaming Notebook Intel Core i7 6700HQ Nvidia GTX 960M Game laptop</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">15</td>
-                    <td data-title="Price" class="price">¥ 5 520</td>
-                    <td data-title="Inventory" class="inventory">
-                      <div class="negative">Out of Stock</div>
-                    </td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_4"/>
-                      <label for="choosen_4"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item4.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>Rotatable Lens Recorder Ultra HD Car Camera DVR 1440P</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">6</td>
-                    <td data-title="Price" class="price">¥ 699</td>
-                    <td data-title="Inventory" class="inventory">
-                      <div class="positive">In Stock</div>
-                    </td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_5"/>
-                      <label for="choosen_5"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item5.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>ThundeRobot G150T-D2 Gaming Notebook Intel Core i7 6700HQ Nvidia GTX 960M Game laptop</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">1</td>
-                    <td data-title="Price" class="price">¥ 330</td>
-                    <td data-title="Inventory" class="inventory">
-                      <div class="negative">Out of Stock</div>
-                    </td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_6"/>
-                      <label for="choosen_6"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item6.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>Rotatable Lens Recorder Ultra HD Car Camera DVR 1440P</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">4</td>
-                    <td data-title="Price" class="price">¥ 900</td>
-                    <td data-title="Inventory" class="inventory">
-                      <div class="positive">In Stock</div>
-                    </td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="actions"><span>Selected Items Actions</span>
-                <div class="btns"><a href="#" class="btn add">ADD TO CATEGORY</a><a href="#" class="btn delete">DELETE</a></div>
-              </div>
-            </div>
-            <div class="data auctions-items">
-              <div class="table-filters">
-                <div class="select">
-                  <input type="checkbox" id="select-all-2"/>
-                  <label for="select-all-2">Select all</label>
-                </div>
-                <div class="fields">
-                  <div class="select-container">
-                    <label for="bidding">Bidding</label>
-                    <select id="bidding" name="bidding">
-                      <option value="all">All</option>
-                      <option value="all">Phones</option>
-                      <option value="all">Other</option>
-                    </select>
+              <div class="category-selection">
+                <div class="category-wrap">
+                  <div class="choose-category">
+                    <div class="field-name">Category</div>
+                    <div class="big-input">
+                      <select id="category" name="category">
+                        <option value="" selected="selected" disabled="disabled">Select category</option>
+                        <option value="category1">Category 1</option>
+                        <option value="category2">Category 2</option>
+                        <option value="category3">Category 3</option>
+                      </select>
+                    </div>
                   </div>
-                  <div class="select-container">
-                    <label for="state">State</label>
-                    <select id="state" name="state">
-                      <option value="positive">In stock</option>
-                      <option value="negative">Out of stock</option>
-                    </select>
+                  <div class="chosen-category">
+                    <p>Women’s Wear  »  Outerwear</p>
+                    <p>Women’s Wear  »  Activewear</p>
+                  </div>
+                </div>
+                <div class="create-category"><a href="#" class="add-link">Create category</a></div>
+              </div>
+              <div class="images">
+                <div class="control-panel">
+                  <div class="field-name">Images (3 of 12)</div><a href="#" class="btn">ADD IMAGES</a>
+                </div>
+                <div class="images-container">
+                  <div class="img-holder">
+                    <div class="remove-img"></div><img src="assets/images/add-product-image1.png" alt=""/>
+                  </div>
+                  <div class="img-holder">
+                    <div class="remove-img"></div><img src="assets/images/add-product-image2.png" alt=""/>
+                  </div>
+                  <div class="img-holder">
+                    <div class="remove-img"></div><img src="assets/images/add-product-image3.png" alt=""/>
                   </div>
                 </div>
               </div>
-              <table class="store-table">
-                <thead>
-                  <tr>
-                    <th colspan="3">Name</th>
-                    <th>Watchers</th>
-                    <th>Bids</th>
-                    <th>Price</th>
-                    <th>Time left</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_1.1"/>
-                      <label for="choosen_1.1"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item1.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>DDPai mini2 Dash Cam WiFi Car DVR 1440P Ultra HD Car Camera Rotatable Lens Recorder</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">2</td>
-                    <td data-title="Bids" class="bids">2 (¥ 1 580)</td>
-                    <td data-title="Price" class="price">¥ 1 580</td>
-                    <td data-title="Time left" class="time hurry">3h 12min</td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_1.2"/>
-                      <label for="choosen_1.2"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item2.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>Meizu M5 Note Prime 3GB 32GB Mobile Phone 13MP Fingerprint 4000mAh</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">0</td>
-                    <td data-title="Bids" class="bids">3 (¥ 2 400)</td>
-                    <td data-title="Price" class="price">¥ 2 400</td>
-                    <td data-title="Time left" class="time">2d 12h</td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_1.3"/>
-                      <label for="choosen_1.3"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item3.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>ThundeRobot G150T-D2 Gaming Notebook Intel Core i7 6700HQ GTX 960M Game laptop</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">15</td>
-                    <td data-title="Bids" class="bids">0</td>
-                    <td data-title="Price" class="price">¥ 5 520</td>
-                    <td data-title="Time left" class="time">3d 4h</td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_1.4"/>
-                      <label for="choosen_1.4"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item4.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>Rotatable Lens Recorder Ultra HD Car Camera DVR 1440P</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">7</td>
-                    <td data-title="Bids" class="bids">2 (¥ 699)</td>
-                    <td data-title="Price" class="price">¥ 699</td>
-                    <td data-title="Time left" class="time">7d 13h</td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_1.5"/>
-                      <label for="choosen_1.5"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item5.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>ThundeRobot G150T-D2 Gaming Notebook Intel Core i7 6700HQ GTX 960M Game laptop</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">1</td>
-                    <td data-title="Bids" class="bids">3 (¥ 330)</td>
-                    <td data-title="Price" class="price">¥ 330</td>
-                    <td data-title="Time left" class="time hurry">0h 23min</td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                  <tr class="store-card">
-                    <td class="select-item">
-                      <input type="checkbox" id="choosen_1.6"/>
-                      <label for="choosen_1.6"></label>
-                    </td>
-                    <td data-title="Photo" class="img-container">
-                      <div><img src="assets/images/store_item6.png" alt=""/></div>
-                    </td>
-                    <td data-title="Name" class="item-name">
-                      <p>Rotatable Lens Recorder Ultra HD Car Camera DVR 1440Pp</p>
-                    </td>
-                    <td data-title="Watchers" class="watchers">4</td>
-                    <td data-title="Bids" class="bids">4 (¥ 900)</td>
-                    <td data-title="Price" class="price">¥ 900</td>
-                    <td data-title="Time left" class="time">5d 23h</td>
-                    <td data-title="More" class="more"><a href="#">...</a></td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="actions"><span>Selected Items Actions</span>
-                <div class="btns"><a href="#" class="btn add">ADD TO CATEGORY</a><a href="#" class="btn delete">DELETE</a></div>
+              <div class="description">
+                <div class="field-name">Description</div>
+                <div class="editor">
+                  <textarea id="description" name="description"></textarea>
+                </div>
+                <div class="top-deals">
+                  <input type="checkbox" id="top-deals"/>
+                  <label for="top-deals">Is In Top Deals</label>
+                </div>
               </div>
+              <div class="price-container">
+                <div class="field-name">Price</div>
+                <input type="radio" id="auction" name="price-type" checked="checked"/>
+                <label for="auction">Auction</label>
+                <input type="radio" id="fixed" name="price-type"/>
+                <label for="fixed">Fixed Price</label>
+                <div class="auction-price">
+                  <div class="field">
+                    <div class="field-name">Starting Price</div>
+                    <div class="double-input">
+                      <div class="currency">
+                        <select id="currency" name="currency">
+                          <option value="¥">¥</option>
+                          <option value="EUR">EUR</option>
+                          <option value="USD">USD</option>
+                        </select>
+                      </div>
+                      <div class="value">
+                        <input type="text"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="field-name">Offer End Date</div>
+                    <div class="big-input offer-date">
+                      <input type="text" placeholder="17/08/2017"/>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <input type="checkbox" id="add-buy-it-now"/>
+                    <label for="add-buy-it-now">Add Buy It Now</label>
+                    <div class="double-input">
+                      <div class="currency">
+                        <select id="currency" name="currency">
+                          <option value="¥">¥</option>
+                          <option value="EUR">EUR</option>
+                          <option value="USD">USD</option>
+                        </select>
+                      </div>
+                      <div class="value">
+                        <input type="text"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field offer-start">
+                    <div class="field-name">Schedule Offer Start Time</div>
+                    <div class="date-inputs">
+                      <div class="big-input offer-date">
+                        <input type="text" placeholder="17/08/2017"/>
+                      </div>
+                      <div class="big-input">
+                        <select id="offer-start" name="offer-start">
+                          <option value="10:00">10:00</option>
+                          <option value="12:00">12:00</option>
+                          <option value="14:00">14:00</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="fixed-price">
+                  <div class="field">
+                    <div class="field-name">Buy It Now Price</div>
+                    <div class="double-input">
+                      <div class="currency">
+                        <select id="currency" name="currency">
+                          <option value="¥">¥</option>
+                          <option value="EUR">EUR</option>
+                          <option value="USD">USD</option>
+                        </select>
+                      </div>
+                      <div class="value">
+                        <input type="text"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field offer-start">
+                    <div class="field-name">Schedule Offer Start Time</div>
+                    <div class="date-inputs">
+                      <div class="big-input offer-date">
+                        <input type="text" placeholder="17/08/2017"/>
+                      </div>
+                      <div class="big-input">
+                        <select id="offer-start" name="offer-start">
+                          <option value="10:00">10:00</option>
+                          <option value="12:00">12:00</option>
+                          <option value="14:00">14:00</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="options">
+                <div class="field-name">Item Options</div>
+                <div class="option-name">
+                  <input type="text" placeholder="Option Name"/>
+                  <div class="remove-item-option"></div>
+                </div>
+                <div class="field-name">Option Values</div>
+                <div class="options-container">
+                  <div class="tag"><span>Small</span><i></i></div>
+                  <div class="tag"><span>Medium</span><i></i></div>
+                  <div class="tag"><span>Large</span><i></i></div>
+                  <div class="field-container">
+                    <input type="text" placeholder="Type here.."/>
+                  </div>
+                </div><a href="#" class="add-link">Add option</a>
+              </div>
+              <div class="inventory-container">
+                <div class="inventory-field">
+                  <input type="radio" id="inventory" name="inventory-type" checked="checked"/>
+                  <label for="inventory">Inventory</label>
+                  <div class="big-input">
+                    <input type="text"/>
+                  </div>
+                  <input type="radio" id="customize" name="inventory-type"/>
+                  <label for="customize">Customize Settings Per Variation</label>
+                  <table class="customize-table">
+                    <tbody>									
+                      <tr>
+                        <td>Options</td>
+                        <td>Price</td>
+                        <td>Surcharge</td>
+                        <td>Inventory</td>
+                      </tr>
+                      <tr>
+                        <td>Value1  |  A</td>
+                        <td>¥  1 360</td>
+                        <td>
+                          <input type="text" value="¥ 150"/>
+                        </td>
+                        <td>
+                          <input type="text" value="1"/>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Value2  |  A</td>
+                        <td>¥  1 290</td>
+                        <td>
+                          <input type="text" value="¥ 5"/>
+                        </td>
+                        <td>
+                          <input type="text" value="1"/>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Value3  |  A</td>
+                        <td>¥  550</td>
+                        <td>
+                          <input type="text" value="¥ 15"/>
+                        </td>
+                        <td>
+                          <input type="text" value="1"/>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Value4  |  A</td>
+                        <td>¥  170</td>
+                        <td>
+                          <input type="text" value="¥ 25"/>
+                        </td>
+                        <td>
+                          <input type="text" value="1"/>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="buttons-panel"><a href="#" class="btn add">ADD PRODUCT</a><a href="#" class="btn preview">PREVIEW</a><a href="#" class="btn cancel">CANCEL</a></div>
             </div>
           </div>
         </div>

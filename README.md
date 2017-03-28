@@ -8,3 +8,5 @@ Category list view http://wesell.div.agency/category-list.html <br>
 Product page http://wesell.div.agency/product_view1.html <br>
 Cart http://wesell.div.agency/cart.html <br>
 Manage store http://wesell.div.agency/manage-store.html <br>
+Manage store - add product view 1 http://wesell.div.agency/add-product1.html <br>
+Manage store - add product view 2 http://wesell.div.agency/add-product2.html <br>

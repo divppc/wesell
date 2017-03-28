@@ -115,6 +115,10 @@ section.manage-store {
 			padding: 9px 25px;
 			margin-bottom: 28px;
 		}
+
+		&.add-product-item {
+			margin-bottom: 5px;
+		}
 	}
 
 	.counter {
@@ -224,7 +228,7 @@ section.manage-store {
 		}
 	}
 
-	input[type="radio"] {
+	input[type="radio"].price-type-toggler {
 		display: none;
 
 		&:checked {
