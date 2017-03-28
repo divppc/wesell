@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
     <link rel="shortcut icon" href="favicon.ico"/>
-    <title>WeSell | Manage Store add product view 1</title>
+    <title>WeSell | Order Details</title>
   </head>
   <body>
     <header class="inner">
@@ -782,7 +782,7 @@
     </section>
     <section class="manage-store">
       <div class="container">
-        <h1>Manage Store</h1>
+        <h1>New Products</h1>
         <div class="manage-container">
           <div class="manage-nav">
             <ul>
@@ -796,156 +796,156 @@
               </li>
             </ul>
           </div>
-          <div class="manage-content">
-            <div class="title-panel add-product-item">
-              <div class="subtitle">New Product</div>
-              <div class="submit-btns"><a href="#" class="btn save">Save</a><a href="#" class="btn cancel">Cancel</a></div>
+          <div class="manage-content order-details-page">
+            <div class="title-panel">
+              <div class="order">
+                <div class="subtitle order-number">Order #10529</div>
+                <div class="order-type">
+                  <input type="checkbox" name="order-dd" id="show-order"/>
+                  <label for="show-order" class="choosen-type">New</label>
+                  <div class="order-types">
+                    <ul>
+                      <li><a href="#">Preparing</a></li>
+                      <li><a href="#">Shipped</a></li>
+                      <li><a href="#">Delivered</a></li>
+                      <li><a href="#">Canceled</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="submit-btns"><a href="#" class="btn edit">Edit</a><a href="#" class="btn print">Print</a></div>
             </div>
-            <div class="add-container">
-              <div class="title-line">
-                <div class="field-name">Product Title</div>
-                <input type="text" required="required"/>
-              </div>
-              <div class="category-selection">
-                <div class="category-wrap">
-                  <div class="choose-category">
-                    <div class="field-name">Category</div>
-                    <div class="big-input">
-                      <select id="category" name="category">
-                        <option value="" selected="selected" disabled="disabled">Select category</option>
-                        <option value="category1">Category 1</option>
-                        <option value="category2">Category 2</option>
-                        <option value="category3">Category 3</option>
-                      </select>
+            <div class="cart-item">
+              <div class="item">
+                <div class="img-container"><img src="assets/images/cart-item1.png" alt=""/></div>
+                <div class="item-data">
+                  <div class="item-name">
+                    <p>Meizu M5 Note Prime 3GB 32GB Mobile Phone Android Cellular Helio P10 Octa Core 5.5" 13MP Fingerprint 4000mAh</p>
+                    <div class="remove-item"></div>
+                  </div>
+                  <div class="item-info">
+                    <div class="description">
+                      <table>
+                        <tr>
+                          <td>Type:</td>
+                          <td>Digital Projector</td>
+                        </tr>
+                        <tr>
+                          <td>Style:</td>
+                          <td>LCD MPLS</td>
+                        </tr>
+                        <tr>
+                          <td>Projective Mode:</td>
+                          <td>Throwing, DesktopMax</td>
+                        </tr>
+                      </table>
                     </div>
-                  </div>
-                  <div class="chosen-category">
-                    <p>Women’s Wear  »  Outerwear</p>
-                    <p>Women’s Wear  »  Activewear</p>
-                  </div>
-                </div>
-                <div class="create-category"><a href="#" class="add-link">Create category</a></div>
-              </div>
-              <div class="images">
-                <div class="control-panel">
-                  <div class="field-name">Images (3 of 12)</div><a href="#" class="btn">ADD IMAGES</a>
-                </div>
-                <div class="images-container">
-                  <div class="img-holder">
-                    <div class="remove-img"></div><img src="assets/images/add-product-image1.png" alt=""/>
-                  </div>
-                  <div class="img-holder">
-                    <div class="remove-img"></div><img src="assets/images/add-product-image2.png" alt=""/>
-                  </div>
-                  <div class="img-holder">
-                    <div class="remove-img"></div><img src="assets/images/add-product-image3.png" alt=""/>
-                  </div>
-                </div>
-              </div>
-              <div class="product-description">
-                <div class="field-name">Description</div>
-                <div class="editor">
-                  <textarea id="description" name="description"></textarea>
-                </div>
-                <div class="top-deals">
-                  <input type="checkbox" id="top-deals"/>
-                  <label for="top-deals">Is In Top Deals</label>
-                </div>
-              </div>
-              <div class="price-container">
-                <div class="field-name">Price</div>
-                <input type="radio" id="auction" name="price-type" checked="checked"/>
-                <label for="auction">Auction</label>
-                <input type="radio" id="fixed" name="price-type"/>
-                <label for="fixed">Fixed Price</label>
-                <div class="auction-price">
-                  <div class="field">
-                    <div class="field-name">Starting Price</div>
-                    <div class="double-input">
-                      <div class="currency">
-                        <select id="currency" name="currency">
-                          <option value="¥">¥</option>
-                          <option value="EUR">EUR</option>
-                          <option value="USD">USD</option>
-                        </select>
+                    <div class="quantity">
+                      <div class="field">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" value="1" id="quantity" min="1"/>
                       </div>
-                      <div class="value">
-                        <input type="text"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="field">
-                    <div class="field-name">Offer End Date</div>
-                    <div class="big-input offer-date">
-                      <input type="text" placeholder="17/08/2017"/>
-                    </div>
-                  </div>
-                  <div class="field">
-                    <input type="checkbox" id="add-buy-it-now"/>
-                    <label for="add-buy-it-now">Add Buy It Now</label>
-                    <div class="double-input">
-                      <div class="currency">
-                        <select id="currency" name="currency">
-                          <option value="¥">¥</option>
-                          <option value="EUR">EUR</option>
-                          <option value="USD">USD</option>
-                        </select>
-                      </div>
-                      <div class="value">
-                        <input type="text"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="field offer-start">
-                    <div class="field-name">Schedule Offer Start Time</div>
-                    <div class="date-inputs">
-                      <div class="big-input offer-date">
-                        <input type="text" placeholder="17/08/2017"/>
-                      </div>
-                      <div class="big-input">
-                        <select id="offer-start" name="offer-start">
-                          <option value="10:00">10:00</option>
-                          <option value="12:00">12:00</option>
-                          <option value="14:00">14:00</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="fixed-price">
-                  <div class="field">
-                    <div class="field-name">Buy It Now Price</div>
-                    <div class="double-input">
-                      <div class="currency">
-                        <select id="currency" name="currency">
-                          <option value="¥">¥</option>
-                          <option value="EUR">EUR</option>
-                          <option value="USD">USD</option>
-                        </select>
-                      </div>
-                      <div class="value">
-                        <input type="text"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="field offer-start">
-                    <div class="field-name">Schedule Offer Start Time</div>
-                    <div class="date-inputs">
-                      <div class="big-input offer-date">
-                        <input type="text" placeholder="17/08/2017"/>
-                      </div>
-                      <div class="big-input">
-                        <select id="offer-start" name="offer-start">
-                          <option value="10:00">10:00</option>
-                          <option value="12:00">12:00</option>
-                          <option value="14:00">14:00</option>
-                        </select>
-                      </div>
+                      <div class="price">¥ 2 980</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="buttons-panel"><a href="#" class="btn add">ADD PRODUCT</a><a href="#" class="btn preview">PREVIEW</a><a href="#" class="btn cancel">CANCEL</a></div>
+            </div>
+            <div class="cart-item">
+              <div class="item">
+                <div class="img-container"><img src="assets/images/cart-item2.png" alt=""/></div>
+                <div class="item-data">
+                  <div class="item-name">
+                    <p>TouYinger Q7 Mini portable LED Projector 1500 Lumens LCD Home theater Support </p>
+                    <div class="remove-item"></div>
+                  </div>
+                  <div class="item-info">
+                    <div class="description">
+                      <table>
+                        <tr>
+                          <td>Type:</td>
+                          <td>Digital Projector</td>
+                        </tr>
+                        <tr>
+                          <td>Style:</td>
+                          <td>LCD MPLS</td>
+                        </tr>
+                        <tr>
+                          <td>Projective Mode:</td>
+                          <td>Throwing, DesktopMax</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="quantity">
+                      <div class="field">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" value="1" id="quantity" min="1"/>
+                      </div>
+                      <div class="price">¥ 3 660</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="price-table subtotal">
+              <table>
+                <tr>
+                  <td>Subtotal:</td>
+                  <td>¥ 5 920</td>
+                </tr>
+                <tr>
+                  <td>Shipping:</td>
+                  <td>¥ 160</td>
+                </tr>
+              </table>
+            </div>
+            <div class="price-table total">
+              <table>
+                <tr>
+                  <td>Total:</td>
+                  <td>¥ 6 080</td>
+                </tr>
+              </table>
+            </div>
+            <div class="title-panel">
+              <div class="subtitle customer">Customer Details</div>
+            </div>
+            <div class="customer-details">
+              <div class="details-info">
+                <div class="details-name">Email & Telephone</div>
+                <div class="details-item details-mail">johnny.belaggio@chinamail.com</div>
+                <div class="details-item details-phone">+86 192 125 550 20 03</div>
+              </div>
+              <div class="details-info">
+                <div class="details-name">Shipping Method</div>
+                <div class="details-item details-shipping-method">China Express Mail<a href="#" class="add-link">Add Tracking Number</a></div>
+              </div>
+              <div class="details-info">
+                <div class="details-name">Shipping Address</div>
+                <div class="details-item details-shipping-adress">Darlene Smith</div>
+                <div class="details-item">998 Keen Frk, Jackson, KY, 41339</div>
+              </div>
+              <div class="details-info">
+                <div class="details-name">Payment Method</div>
+                <div class="details-item details-payment">VISA / Mastercard</div>
+              </div>
+            </div>
+            <div class="title-panel">
+              <div class="subtitle log">Action log</div>
+            </div>
+            <div class="logs">
+              <div class="log">
+                <div class="log-date">Mar 19, 2017, 15:40:12</div>
+                <div class="log-status">Order status changed to <span class="status shipped">Shipped</span></div>
+              </div>
+              <div class="log">
+                <div class="log-date">Mar 18, 2017, 14:22:50</div>
+                <div class="log-status">Order status changed to <span class="status processing">Processing</span></div>
+              </div>
+              <div class="log">
+                <div class="log-date">Mar 15, 2017, 08:08:44</div>
+                <div class="log-status">Order Placed</div>
+              </div>
             </div>
           </div>
         </div>

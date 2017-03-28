@@ -7,7 +7,9 @@ section.manage-store {
     color: #1a1a18;
     display: flex;
     align-items: center;
-
+    min-height: 36px;
+    line-height: 36px;
+  
     &:before {
     	display: block;
     	content: '';
@@ -15,6 +17,30 @@ section.manage-store {
     	height: 15px;
     	margin-right: 15px;
     	background: url("assets/images/add-product-icons.png") no-repeat 0px 0px;
+    }
+
+    &.order-number {
+    	&:before {
+				width: 15px;
+				height: 16px;
+				background: url("assets/images/order-details-icons.png") no-repeat 0px 1px;
+    	}
+    }
+
+    &.customer {
+    	&:before {
+				width: 14px;
+				height: 14px;
+				background: url("assets/images/order-details-icons.png") no-repeat 0px -70px;
+    	}
+    }
+
+    &.log {
+    	&:before {
+				width: 14px;
+				height: 14px;
+				background: url("assets/images/order-details-icons.png") no-repeat 0px -146px;
+    	}
     }
 	}
 
@@ -85,6 +111,41 @@ section.manage-store {
 
 			&:before {
 				background-position: 0 -15px;
+			}
+		}
+
+		.edit {
+			background: #689624;
+			margin: 10px 0;
+
+			@media (min-width: $responsive-mobile) {
+				margin: 0 10px 0 0;
+			}
+
+			&:hover {
+				background: darken(#689624, 3%);
+			}
+
+			&:before {
+				width: 14px;
+				height: 14px;
+				margin-right: 20px;
+				background: url("assets/images/order-details-icons.png") 0px -17px;
+			}
+		}
+
+		.print {
+			background: #84c225;
+
+			&:hover {
+				background: darken(#84c225, 3%);
+			}
+
+			&:before {
+				width: 16px;
+				height: 14px;
+				margin-right: 20px;
+				background: url("assets/images/order-details-icons.png") 0px -31px;
 			}
 		}
 	}
@@ -303,7 +364,7 @@ section.manage-store {
 		}
 	}
 
-	.description {
+	.product-description {
 		padding-top: 15px;
 		padding-bottom: 25px;
 

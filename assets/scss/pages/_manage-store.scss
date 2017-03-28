@@ -98,6 +98,12 @@ section.manage-store {
 		flex-basis: calc(100% - 27%);
 	}
 
+	&.order-details-page {
+		.title-panel {
+			margin-bottom: 5px;
+		}
+	}
+
 	.title-panel {
 		display: flex;
 		align-items: center;
@@ -118,7 +124,7 @@ section.manage-store {
 
 		&.add-product-item {
 			margin-bottom: 5px;
-		}
+		}	
 	}
 
 	.counter {

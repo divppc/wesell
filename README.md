@@ -10,3 +10,4 @@ Cart http://wesell.div.agency/cart.html <br>
 Manage store http://wesell.div.agency/manage-store.html <br>
 Manage store - add product view 1 http://wesell.div.agency/add-product1.html <br>
 Manage store - add product view 2 http://wesell.div.agency/add-product2.html <br>
+Manage store - Order details http://wesell.div.agency/order-details.html <br>

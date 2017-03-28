@@ -134,8 +134,8 @@ section.cart {
 		padding: 10px;
 		border: 1px solid #d3d2d2;
 		margin: 0 auto 20px;
-		display: flex;
 		flex-shrink: 0;
+		position: relative;
 
 
 		@media (min-width: $responsive-tablet) {
@@ -145,7 +145,9 @@ section.cart {
 		img {
 			display: block;
 			max-width: 100%;
-			margin: auto;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
 		}
 	}
 
