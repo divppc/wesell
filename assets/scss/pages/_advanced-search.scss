@@ -1,0 +1,383 @@
+/*ADVANCED SEARCH*/
+section.advanced-search {
+	padding-bottom: 45px;
+
+	@media (min-width: $responsive-tablet) {
+		padding-bottom: 90px;
+	}
+
+	@media (min-width: $responsive-laptop) {
+		padding-bottom: 145px;
+	}
+
+
+	
+	.advanced-search-container {
+		border: 1px solid #cdcccc;
+
+		&>div {
+			padding: 15px;
+
+			@media (min-width: $responsive-laptop) {
+				padding: 25px 45px 30px 45px;
+			}
+
+			&:not(:last-child) {
+				border-bottom: 1px solid #cdcccc;
+			}
+
+			&:nth-child(odd) {
+				background: #fbfbfb;
+			}
+
+			&>.input-field {
+				margin-bottom: 10px;
+
+				@media (min-width: $responsive-tablet) {
+					margin-bottom: 20px;
+				}
+			}
+		}
+
+		.subtitle {
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 16.67px;
+			color: #2b2a29;
+			display: inline-block;
+			border-bottom: 4px solid #f8c300;
+			margin-bottom: 20px;
+		}
+	}
+
+	.main-search {
+		display: flex;
+		align-items: center;
+		margin-bottom: 15px;
+		flex-wrap: wrap;
+
+		@media (min-width: $responsive-mobile) {			
+			flex-wrap: nowrap;
+		}
+
+		@media (min-width: $responsive-mobile) {
+			margin-bottom: 35px;
+		}
+
+		.order {
+			flex-basis: 100%;
+			margin-top: 10px;
+
+			@media (min-width: $responsive-mobile) {
+				flex-basis: auto;
+				margin-left: 12px;
+				margin-top: 0;
+			}
+
+			select {
+				width: 100%;
+				min-width: 165px;
+			}
+		}
+	}
+
+	.btn {
+		height: 38px;
+		text-transform: uppercase;
+		padding: 0 22px;
+
+		&:before {
+			display: block;
+			content: '';
+		}
+
+		&.search {
+			background: #ffb009;
+			margin-top: 15px;
+
+			@media (min-width: $responsive-mobile) {
+				max-width: 186px;
+			}
+
+			@media (min-width: $responsive-tablet) {
+				margin-top: 25px;
+			}
+
+			&:before {
+				width: 11px;
+				height: 11px;
+				margin-right: 15px;
+				background: url("assets/images/manage_store_icons.png") no-repeat 0px -163px;
+
+				@media (min-width: $responsive-mobile) {
+					margin-right: 40px;
+				}
+			}
+
+			&:hover {
+				background: darken(#ffb009, 3%);
+			}
+		}
+	}
+
+	input[type="text"],
+	select {
+		height: 36px;
+		border-radius: 3px;		
+		background: #fff;
+		border: 1px solid #b0afae;
+		outline: none;
+		font-size: 14.58px;
+		color: #5b5b5b;
+	}
+
+	input[type="text"] {
+		padding: 0 10px;
+	}
+	
+	select {
+		padding: 0 0 0 10px;
+	}
+
+	.input-field {
+		width: 100%;
+
+		@media (min-width: $responsive-tablet) {
+			width: 455px;
+		}
+
+		input,
+		select {
+			width: 100%;
+		}
+
+		label {
+			display: block;
+			font-size: 14px;
+			font-weight: 500;
+			color: #2b2a29;
+			margin-bottom: 5px;
+
+			@media (min-width: $responsive-tablet) {
+				font-size: 16.67px;
+			}
+		}
+	}
+
+	ul {
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: wrap;
+
+			&:not(:last-child) {
+				margin-bottom: 15px;
+
+				@media (min-width: $responsive-tablet) {
+					margin-bottom: 20px;
+				}
+			}
+
+			&.select-list-item {
+
+				&:not(:last-of-type) {
+					margin-bottom: 5px;
+
+					@media (min-width: $responsive-tablet) {
+						margin-bottom: 10px;
+					}
+				}
+
+				&.multiple {
+					@media (min-width: $responsive-tablet) {
+						margin-bottom: 17px;
+					}
+				}			
+			}
+		}
+	}
+
+	.search-including {
+		ul {
+			max-width: 540px;
+
+			@media (min-width: $responsive-tablet) {
+				column-count: 2;
+			}
+		}
+	}
+
+	input[type="checkbox"] {
+		display: none;
+
+		&+label {
+			font-size: 14.58px;
+			color: #2b2a29;
+			position: relative;
+			cursor: pointer;
+			padding-left: 30px;
+
+			&:before {
+				position: absolute;
+		    top: 0;
+		    left: 0;
+		    content: '';
+		    display: block;
+		    width: 16px;
+		    height: 16px;
+		    background: url(assets/images/auth-icons.png) no-repeat 0px -113px;
+			}
+		}
+
+		&:checked {
+			&+label {
+				&:before {
+			    background-position: 0 -130px;
+				}
+			}
+		}
+	}
+
+	.search-by-price {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+
+		span {
+			font-size: 14.58px;
+			color: #2b2a29;
+
+			&:first-of-type {
+				margin: 0 10px 0 0;
+
+				@media (min-width: $responsive-tablet) {
+					margin: 0 10px 0 5px;
+				}
+			}
+
+			&:last-of-type {
+				margin: 0 10px;
+			}
+		}
+
+		label {
+			width: 100%;
+			margin-bottom: 10px;
+
+			@media (min-width: $responsive-tablet) {
+				width: auto;
+				margin-bottom: 0;
+			}
+		}
+
+		input {
+			width: 70px;
+			margin: 0 5px;
+
+			@media (min-width: $responsive-mobile) {
+				width: 100px;
+			}
+		}
+	}
+
+	.show-results {
+		@media (min-width: $responsive-tablet) {
+			max-width: 455px;
+		}
+
+		li {
+			&:not(:last-child) {
+				margin-bottom: 25px;
+			}
+		}
+	}
+
+	#offer-end {
+		width: 100%;
+		margin-bottom: 5px;
+
+		@media (min-width: $responsive-mobile) {
+			width: 202px;
+			margin-bottom: 0;
+		}
+	}
+
+	#offer-hours {
+		width: 100%;		
+
+		@media (min-width: $responsive-mobile) {
+			width: 165px;
+			margin-left: 6px;
+		}
+	}
+
+	.list-inputs {
+		width: 100%;
+		margin: 10px 0 20px 0;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+
+		@media (min-width: $responsive-tablet) {
+			width: auto;
+			margin: 0;
+		}
+
+		input {
+			width: 102px;
+			display: block;
+		}
+
+		span {
+			display: inline-block;
+			margin: 0 10px;
+		}
+	}
+
+	.btns {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 13.75px;
+		margin-top: 20px;
+
+		@media (min-width: $responsive-tablet) {
+			margin-top: 40px;
+		}
+
+		.btn {
+			width: 100%;
+			margin: 0;
+
+			@media (min-width: $responsive-mobile) {
+				width: 186px;
+			}
+		}
+
+		.clear {
+			background: #c2c1c1;
+			height: 38px;
+			margin-top: 10px;
+
+			@media (min-width: $responsive-mobile) {
+				margin-top: 0;
+				margin-left: 15px;
+			}
+
+			&:hover {
+				background: darken(#c2c1c1, 3%);
+			}
+
+			&:before {
+				display: block;
+				content: '';
+				width: 12px;
+				height: 12px;
+				margin-right: 15px;
+				flex-shrink: 0;
+				background: url("assets/images/manage_store_icons.png") no-repeat 0px -118px;
+			}
+		}
+	}
+}
