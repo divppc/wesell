@@ -784,7 +784,6 @@ section.manage-store {
 .fixed-items {
 
 	.select-item {
-		// width: 100%;
 		min-width: 32px;
 
 		@media (min-width: $responsive-tablet) {			
@@ -819,7 +818,6 @@ section.manage-store {
 	}
 
 	.watchers {
-		// width: 100%;
 		min-width: 90px;
 
 		@media (min-width: $responsive-tablet) {
@@ -829,7 +827,6 @@ section.manage-store {
 
 	.price {
 		min-width: 77px;
-		// width: 100%;
 
 		@media (min-width: $responsive-tablet) {
 			width: 8.8%;
@@ -837,7 +834,6 @@ section.manage-store {
 	}
 
 	.inventory {
-		// width: 100%;
 		text-align: left;
 		min-width: 115px;
 
@@ -880,7 +876,6 @@ section.manage-store {
 .auctions-items {
 
 	.select-item {
-		// width: 100%;
 		min-width: 32px;
 
 		@media (min-width: $responsive-tablet) {			
@@ -889,7 +884,6 @@ section.manage-store {
 	}
 
 	.item-name {
-		// width: 100%;
 		padding: 10px 0;
 
 		@media (min-width: $responsive-tablet) {
@@ -916,7 +910,6 @@ section.manage-store {
 	}
 
 	.watchers {
-		// width: 100%;
 		min-width: 70px;
 
 		@media (min-width: $responsive-tablet) {
@@ -926,7 +919,6 @@ section.manage-store {
 
 	.bids {
 		min-width: 80px;
-		// width: 100%;
 
 		@media (min-width: $responsive-tablet) {
 			width: 13.0285%;
@@ -935,7 +927,6 @@ section.manage-store {
 
 	.price {
 		min-width: 80px;
-		// width: 100%;
 
 		@media (min-width: $responsive-tablet) {
 			width: 10.8571%;
@@ -944,7 +935,6 @@ section.manage-store {
 
 	.time {
 		min-width: 75px;
-		// width: 100%;
 
 		@media (min-width: $responsive-tablet) {
 			width: 8.2285%;

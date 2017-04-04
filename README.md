@@ -12,3 +12,4 @@ Manage store - add product view 1 http://wesell.div.agency/add-product1.html <br
 Manage store - add product view 2 http://wesell.div.agency/add-product2.html <br>
 Manage store - Order details http://wesell.div.agency/order-details.html <br>
 Advanced search http://wesell.div.agency/advanced-search.html <br>
+Checkout page http://wesell.div.agency/checkout.html <br>

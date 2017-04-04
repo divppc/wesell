@@ -268,29 +268,6 @@ section.manage-store {
 		}
 	}
 
-	.add-link {
-		position: relative;
-		padding-left: 25px;
-		text-decoration: underline;
-		font-size: 14.58px;
-		font-weight: 500;
-		color: #84c225;
-
-		&:hover {
-			text-decoration: none;
-		}
-
-		&:before {
-			display: block;
-			content: '';
-			position: absolute;
-			top: 0;
-			width: 16px;
-			height: 17px;
-			left: 0;
-			background: url("assets/images/add-product-icons.png") no-repeat 0px -31px;
-		}
-	}
 
 	.images {
 		padding-top: 15px;
@@ -836,5 +813,30 @@ section.manage-store {
 				}
 			}
 		}
+	}
+}
+
+
+.add-link {
+	position: relative;
+	padding-left: 25px;
+	text-decoration: underline;
+	font-size: 14.58px;
+	font-weight: 500;
+	color: #84c225;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:before {
+		display: block;
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 16px;
+		height: 17px;
+		left: 0;
+		background: url("assets/images/add-product-icons.png") no-repeat 0px -31px;
 	}
 }
