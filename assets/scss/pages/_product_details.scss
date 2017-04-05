@@ -793,41 +793,20 @@ section.simillar {
 	}
 
 	.grid {
+		border-right: 0;
 
 		.item {
 			padding: 35px 20px 20px 20px;
-			border-right: 0;
+			border-right: 1px solid #e3e3e3;
 			min-height: 370px;
 
-			@media (min-width: $responsive-mobile) {
-				&:nth-child(odd) {
-			    border-right: 1px solid #e3e3e3;
-				}
-			}
-
 			@media (min-width: $responsive-tablet) {
-				width: calc(100% / 3);
-
-				&:nth-child(odd) {
-			    border-right: 0;			    
-				}
-
-				&:not(:nth-child(3n+3)) {
-					border-right: 1px solid #e3e3e3;
-				}				
+				width: calc(100% / 3);	
 			}
 
 			@media (min-width: $responsive-laptop) {
 				width: 20%;
 				min-height: 410px;
-
-				&:not(:nth-child(3n+3)) {					
-					border-right: 0
-				}
-
-				&:not(:last-child) {
-					border-right: 1px solid #e3e3e3;
-				}
 			}
 		}
 	}

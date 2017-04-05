@@ -1058,6 +1058,17 @@ section.category {
 .breadcrumbs {
 	li {
 		display: inline-block;
+
+		&:not(:last-child) {
+			a {
+				&:after {
+					display: inline-block;
+					content: ">";
+					margin-left: 5px;
+				}
+			}
+		}
+
 	}
 
 	a, span {
@@ -1068,12 +1079,6 @@ section.category {
 	a {
 		&:hover {
 			text-decoration: underline;
-		}
-
-		&:after {
-			display: inline-block;
-			content: ">";
-			margin-left: 5px;
 		}
 	}
 }

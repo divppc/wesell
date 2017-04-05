@@ -10,6 +10,12 @@ section.cart {
 		padding-bottom: 175px;
 	}
 
+	&.bids-history {
+		@media (min-width: $responsive-laptop) {
+			padding-bottom: 75px;
+		}
+	}
+
 	h1 {
 		font-family: $rob;
 		font-weight: 700;
@@ -70,6 +76,22 @@ section.cart {
 				width: 18px;
 				height: 16px;
 				background-position: 0 -90px;
+			}
+		}
+
+		&.bids {
+			&:before {
+				width: 16px;
+				height: 17px;
+				background: url("assets/images/bids-history-icons.png") no-repeat 0px 0px;
+			}
+		}
+
+		&.item-info {
+			&:before {
+				width: 16px;
+				height: 17px;
+				background: url("assets/images/bids-history-icons.png") no-repeat 0px -18px;
 			}
 		}
 	}
