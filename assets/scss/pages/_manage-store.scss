@@ -83,6 +83,7 @@ section.manage-store {
 			height: 16px;
 			background: url("assets/images/manage_store_icons.png") no-repeat 0px -16px;
 			margin-right: 20px;
+			flex-shrink: 0;
 		}
 
 		@media (min-width: $responsive-tablet) {

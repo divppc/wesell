@@ -42,6 +42,14 @@ section.manage-store {
 				background: url("assets/images/order-details-icons.png") no-repeat 0px -146px;
     	}
     }
+
+    &.history {
+    	&:before {
+				width: 16px;
+				height: 17px;
+				background: url("assets/images/purchase-history-icons.png") no-repeat 0px 0px;
+    	}
+    }
 	}
 
 	.submit-btns {

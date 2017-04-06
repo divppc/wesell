@@ -15,3 +15,4 @@ Advanced search http://wesell.div.agency/advanced-search.html <br>
 Checkout page http://wesell.div.agency/checkout.html <br>
 Bids history view1 http://wesell.div.agency/bids-history-view1.html <br>
 Bids history view2 http://wesell.div.agency/bids-history-view2.html <br>
+Purchase history http://wesell.div.agency/purchase-history.html <br>
