@@ -105,6 +105,28 @@ section.manage-store {
 		}
 	}
 
+	
+	&.not-win {
+
+		.title-panel {
+
+			margin-bottom: 0;
+
+			@media (min-width: $responsive-tablet) {
+				padding: 9px 20px;
+			}
+
+			.subtitle {
+				&:before {
+					width: 16px;
+					height: 16px;
+					background: url("assets/images/purchase-history-icons.png") no-repeat 0px -93px;
+	    	}
+			}
+
+		}
+	}
+
 	.title-panel {
 		display: flex;
 		align-items: center;
@@ -357,101 +379,101 @@ section.manage-store {
 		background: #fff;
 		display: none;
 		z-index: 1;
+	}
 
-		.actions {
+	.actions {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 20px;
+		align-items: center;
+		justify-content: flex-end;
+
+		@media (min-width: $responsive-tablet) {
+			margin-top: 30px;
+		}
+
+		.btns {
 			display: flex;
-			flex-wrap: wrap;
-			margin-top: 20px;
 			align-items: center;
-			justify-content: flex-end;
+			width: 100%;
 
 			@media (min-width: $responsive-tablet) {
-				margin-top: 30px;
+				width: auto;
+			}
+		}
+
+		span {
+			font-size: 14.58px;
+			color: #1a1a18;
+			margin-bottom: 10px;
+			display: block;
+			flex-basis: 100%;
+			text-align: right;
+
+			@media (min-width: $responsive-laptop) {
+				margin-bottom: 0;
+				flex-basis: auto;
+				margin-right: 25px;
+			}
+		}
+
+		a {
+			height: 36px;
+			font-size: 10px;
+			padding: 0 10px;
+			flex-basis: 50%;				
+
+			@media (min-width: $responsive-tablet) {
+				font-size: 13.75px;
+				padding: 0 30px;
+				height: 43px;
+				flex-basis: auto;
 			}
 
-			.btns {
-				display: flex;
-				align-items: center;
-				width: 100%;
+			&.add {
+				background: #649c11;
+				margin-right: 10px;
 
-				@media (min-width: $responsive-tablet) {
-					width: auto;
-				}
-			}
-
-			span {
-				font-size: 14.58px;
-				color: #1a1a18;
-				margin-bottom: 10px;
-				display: block;
-				flex-basis: 100%;
-				text-align: right;
-
-				@media (min-width: $responsive-laptop) {
-					margin-bottom: 0;
-					flex-basis: auto;
-					margin-right: 25px;
-				}
-			}
-
-			a {
-				height: 36px;
-				font-size: 10px;
-				padding: 0 10px;
-				flex-basis: 50%;				
-
-				@media (min-width: $responsive-tablet) {
-					font-size: 13.75px;
-					padding: 0 30px;
-					height: 43px;
-					flex-basis: auto;
-				}
-
-				&.add {
-					background: #649c11;
-					margin-right: 10px;
-
-					&:hover {
-						background: darken(#649c11, 3%);
-					}
-
-					&:before {
-						width: 14px;
-						height: 14px;
-						background-position: 0 -104px;
-						margin-right: 10px;
-
-						@media (min-width: $responsive-tablet) {
-							margin-right: 20px;
-						}
-					}
-				}
-
-				&.delete {
-					background: #ec8e1c;
-
-					&:hover {
-						background: darken(#ec8e1c, 3%);
-					}
-
-					&:before {
-						width: 13px;
-						height: 13px;
-						background-position: 0 -118px;
-						margin-right: 10px;
-
-						@media (min-width: $responsive-tablet) {
-							margin-right: 28px;
-						}
-					}
+				&:hover {
+					background: darken(#649c11, 3%);
 				}
 
 				&:before {
-					display: block;
-					content: '';
-					flex-shrink: 0;
-					background: url("assets/images/manage_store_icons.png") no-repeat;
+					width: 14px;
+					height: 14px;
+					background-position: 0 -104px;
+					margin-right: 10px;
+
+					@media (min-width: $responsive-tablet) {
+						margin-right: 20px;
+					}
 				}
+			}
+
+			&.delete {
+				background: #ec8e1c;
+
+				&:hover {
+					background: darken(#ec8e1c, 3%);
+				}
+
+				&:before {
+					width: 13px;
+					height: 13px;
+					background-position: 0 -118px;
+					margin-right: 10px;
+
+					@media (min-width: $responsive-tablet) {
+						margin-right: 28px;
+					}
+				}
+			}
+
+			&:before {
+				display: block;
+				content: '';
+				flex-shrink: 0;
+				background: url("assets/images/manage_store_icons.png") no-repeat;
 			}
 		}
 	}
@@ -790,6 +812,14 @@ section.manage-store {
 		@media (min-width: $responsive-tablet) {			
 			width: 6.1714%;
 		}
+
+		input {
+			&[type="checkbox"] {
+				&+label {
+					padding-left: 0;
+				}
+			}
+		}
 	}
 
 	.item-name {
@@ -881,6 +911,14 @@ section.manage-store {
 
 		@media (min-width: $responsive-tablet) {			
 			width: 5.7142%;
+		}
+
+		input {
+			&[type="checkbox"] {
+				&+label {
+					padding-left: 0;
+				}
+			}
 		}
 	}
 

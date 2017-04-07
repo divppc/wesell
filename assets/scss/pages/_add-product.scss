@@ -50,6 +50,14 @@ section.manage-store {
 				background: url("assets/images/purchase-history-icons.png") no-repeat 0px 0px;
     	}
     }
+
+    &.bidding {
+    	&:before {
+				width: 17px;
+				height: 17px;
+				background: url("assets/images/manage_store_icons.png") no-repeat 0px -88px;
+    	}
+    }
 	}
 
 	.submit-btns {

@@ -25,6 +25,48 @@
 			}
 		}
 	}
+
+	.selects {
+		display: flex;
+		align-tems: center;
+		flex-wrap: wrap;
+		margin-top: 10px;
+
+		@media (min-width: $responsive-mobile) {
+			margin-top: 0;
+		}
+
+		.select {
+			display: flex;
+			align-items: center;
+			width: 100%;
+
+			@media (min-width: $responsive-mobile) {
+				width: auto;
+			}
+
+			&:first-child {
+				margin: 0 0 10px 0;
+
+				@media (min-width: $responsive-mobile) {
+					margin: 0 15px 0 0;
+				}
+			}
+		}
+
+		label {			
+			min-width: 55px;
+
+			@media (min-width: $responsive-mobile) {
+				min-width: auto;
+				margin-right: 10px;
+			}
+		}
+
+		select {
+			width: 155px;
+		}
+	}
 }
 
 .history-item {
