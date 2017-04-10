@@ -98,7 +98,6 @@
 
 	.history-info {
 		display: flex;
-		align-items: center;
 		flex-wrap: wrap;
 
 		&>div {
@@ -154,6 +153,28 @@
 					width: 15px;
 					height: 12px;
 					background-position: 0 -44px;
+				}
+			}
+
+			&.order-shipping-adress {
+				margin-bottom: 10px;
+
+				@media (min-width: $responsive-desktop) {
+					margin-bottom: 0;
+				}
+
+				&:before {
+					width: 11px;
+					height: 13px;
+					background: url("assets/images/order-details-icons.png") no-repeat 0px -120px;
+				}
+			}
+
+			&.order-payment-method {
+				&:before {
+					width: 13px;
+					height: 12px;
+					background: url("assets/images/order-details-icons.png") no-repeat 0px -134px;
 				}
 			}
 
@@ -339,19 +360,58 @@
 			margin-top: 10px;
 		}
 
+		.item-quantity,
+		.shipping-service {
+			color: #6e6e6e;
+
+			b {
+				font-weight: normal;
+				padding-left: 5px;
+			}
+		}
+
 		.item-price {
 			font-family: $mon;
 			font-size: 25px;
 			flex-shrink: 0;
 			margin-top: 10px;
+			width: 100%;
 
 			@media (min-width: $responsive-tablet) {
-				margin-left: 20px;
 				margin-top: 0;
+				text-align: right;
+				margin-left: 20px;
+				width: auto;
 			}
 
-			@media (min-width: $responsive-laptop) {
-				padding-right: 30px;
+			a {
+				text-transform: uppercase;
+				max-width: 200px;
+				background: #ffb009;
+				justify-content: center;
+
+				&:hover {
+					background: darken(#ffb009, 5%);
+				}
+
+				@media (min-width: $responsive-tablet) {
+					padding: 0 10px;
+				}
+
+				@media (min-width: $responsive-laptop) {
+					padding: 0 30px;
+				}
+			}
+
+			.actions {
+				justify-content: flex-start;
+			}
+
+			span {
+
+				@media (min-width: $responsive-laptop) {
+					padding-right: 30px;
+				}
 			}
 		}
 	}

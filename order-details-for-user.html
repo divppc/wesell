@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
     <link rel="shortcut icon" href="favicon.ico"/>
-    <title>WeSell | Purchase history</title>
+    <title>WeSell | Order details for user</title>
   </head>
   <body>
     <header class="inner">
@@ -777,13 +777,14 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">My WeSell</a></li>
-          <li><span>Purchase history</span></li>
+          <li><a href="#">Purchase history</a></li>
+          <li><span>Order Details</span></li>
         </ul>
       </div>
     </section>
     <section class="manage-store">
       <div class="container">
-        <h1>Your WeSell Purchase History</h1>
+        <h1>Order details</h1>
         <div class="manage-container">
           <div class="manage-nav">
             <ul>
@@ -808,32 +809,30 @@
           <div class="manage-content order-details-page">
             <div class="title-panel">
               <div class="order">
-                <div class="subtitle history">Purchase history</div>
+                <div class="subtitle order-number">Order #10529</div>
               </div>
-              <div class="filter">
-                <label for="history-display">See orders from</label>
-                <select id="history-display">
-                  <option value="60">The last 60 days</option>
-                  <option value="90">The last 90 days</option>
-                  <option value="120">The last 120 days</option>
-                </select>
-              </div>
+              <div class="order-date">Ordered on Feb 02, 2017</div>
             </div>
             <div class="history-item">
               <div class="purchase-history-data">
                 <div class="history-info">
-                  <div class="order-date"><span>Order-date:</span>
-                    <p>Feb 02, 2017</p>
+                  <div class="order-shipping-adress"><span>Shipping adress:</span>
+                    <p>Jack Jackson</p>
+                    <p>Street Address</p>
+                    <p>State</p>
+                    <P>Country</P>
                   </div>
-                  <div class="total-cost"><span>Total Cost:</span>
-                    <p>¥ 1 208</p>
+                  <div class="order-payment-method"><span>Payment method:</span>
+                    <p>Cash on delivery</p>
                   </div>
-                  <div class="order-number"><span>Order #:</span>
-                    <p>12350005689</p>
+                  <div class="order-number"><span>Order Summary:</span>
+                    <p>Item(s) Subtotal: ¥10.00</p>
+                    <p>Shipping: ¥0.00</p>
+                    <p>Grand Total: ¥10.00</p>
                   </div>
                 </div>
                 <div class="history-status">
-                  <div class="status-label new">New</div><a href="#">Order-details</a>
+                  <div class="status-label new">New</div>
                 </div>
               </div>
               <div class="delivery-info yellow">
@@ -841,93 +840,19 @@
                 <div class="track-number"><span>Tracking number:</span><b>N/A</b></div>
               </div>
               <div class="purchase-items">
-                <div class="item">
+                <div class="item return-item">
                   <div class="item-data">
                     <div class="img-container"><img src="assets/images/cart-item1.png" alt=""/></div>
                     <div class="about-item">
                       <div class="item-name">Meizu M5 Note Prime 3GB 32GB Mobile Phone 13MP Fingerprint 4000mAh</div>
                       <div class="item-code">12698000568</div>
+                      <div class="item-quantity"><span>Quantity:</span><b>1</b></div>
+                      <div class="shipping-service"><span>Shipping Service:</span><b>China Air Post</b></div>
                     </div>
                   </div>
-                  <div class="item-price"> <span>¥ 1 580</span></div>
-                </div>
-              </div>
-            </div>
-            <div class="history-item">
-              <div class="purchase-history-data">
-                <div class="history-info">
-                  <div class="order-date"><span>Order-date:</span>
-                    <p>Jan 26, 2017</p>
+                  <div class="item-price"><span>¥ 1 580</span>
+                    <div class="actions"><a href="#" class="btn delete">Return item</a></div>
                   </div>
-                  <div class="total-cost"><span>Total Cost:</span>
-                    <p>¥ 998</p>
-                  </div>
-                  <div class="order-number"><span>Order #:</span>
-                    <p>12350005689</p>
-                  </div>
-                </div>
-                <div class="history-status">
-                  <div class="status-label shipped">Shipped</div><a href="#">Order-details</a>
-                </div>
-              </div>
-              <div class="delivery-info blue">
-                <div class="estimated-delivery"><span>Estimated Delivery:</span><b>Friday, Feb 10, 2017</b></div>
-                <div class="track-number"><span>Tracking number:</span><b>15907770125UR5</b></div>
-              </div>
-              <div class="purchase-items">
-                <div class="item">
-                  <div class="item-data">
-                    <div class="img-container"><img src="assets/images/purchase-item2.png" alt=""/></div>
-                    <div class="about-item">
-                      <div class="item-name">DDPai mini2 Dash Cam WiFi Car DVR 1440P Ultra HD Car Camera Rotatable Lens Recorder Wireless Snapshot Auto Camcorder</div>
-                      <div class="item-code">12698000568</div>
-                    </div>
-                  </div>
-                  <div class="item-price"><span>¥ 4900</span></div>
-                </div>
-                <div class="item">
-                  <div class="item-data">
-                    <div class="img-container"><img src="assets/images/store_item4.png" alt=""/></div>
-                    <div class="about-item">
-                      <div class="item-name">ThundeRobot G150T-D2 Gaming Notebook Intel Core i7 6700HQ Nvidia GTX 960M Game laptop</div>
-                      <div class="item-code">12698000568</div>
-                    </div>
-                  </div>
-                  <div class="item-price"> <span>¥ 499</span></div>
-                </div>
-              </div>
-            </div>
-            <div class="history-item">
-              <div class="purchase-history-data">
-                <div class="history-info">
-                  <div class="order-date"><span>Order-date:</span>
-                    <p>Dec 17, 2016</p>
-                  </div>
-                  <div class="total-cost"><span>Total Cost:</span>
-                    <p>¥ 3 580</p>
-                  </div>
-                  <div class="order-number"><span>Order #:</span>
-                    <p>12350005689</p>
-                  </div>
-                </div>
-                <div class="history-status">
-                  <div class="status-label delivered">DELIVERED</div><a href="#">Order-details</a>
-                </div>
-              </div>
-              <div class="delivery-info green">
-                <div class="estimated-delivery"><span>Estimated Delivery:</span><b>Friday, Feb 10, 2017</b></div>
-                <div class="track-number"><span>Tracking number:</span><b>N/A</b></div>
-              </div>
-              <div class="purchase-items">
-                <div class="item">
-                  <div class="item-data">
-                    <div class="img-container"><img src="assets/images/store_item1.png" alt=""/></div>
-                    <div class="about-item">
-                      <div class="item-name">Meizu M5 Note Prime 3GB 32GB Mobile Phone 13MP Fingerprint 4000mAh</div>
-                      <div class="item-code">12698000568</div>
-                    </div>
-                  </div>
-                  <div class="item-price"><span>¥ 2 253</span></div>
                 </div>
               </div>
             </div>
