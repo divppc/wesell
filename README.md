@@ -19,3 +19,4 @@ Purchase history http://wesell.div.agency/purchase-history.html <br>
 My bids view1 http://wesell.div.agency/my-bids1.html <br>
 My bids view2 http://wesell.div.agency/my-bids2.html <br>
 Order details for user http://wesell.div.agency/order-details-for-user.html <br>
+Watch List http://wesell.div.agency/watch-list.html <br>

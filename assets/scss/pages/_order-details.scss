@@ -1,6 +1,14 @@
 /*ORDER DETAILS*/
 
 .manage-content {
+
+	.remove-item {
+		width: 25px;
+		height: 25px;
+		cursor: pointer;
+		background: url("assets/images/order-details-icons.png") no-repeat 0px -45px;
+	}
+
 	.cart-item {
 
 		.quantity {
@@ -27,10 +35,6 @@
 			}
 
 			.remove-item {
-				width: 25px;
-				height: 25px;
-				cursor: pointer;
-				background: url("assets/images/order-details-icons.png") no-repeat 0px -45px;
 				margin-left: 15px;
 				flex-shrink: 0;
 			}

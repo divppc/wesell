@@ -123,24 +123,6 @@
 			}
 		}
 
-		// &:hover {
-		// 	border-top: 1px solid #b1b1b0;
-		// 	border-left: 1px solid #b1b1b0;
-		// 	border-right: 1px solid #b1b1b0;
-		// 	border-radius: 5px 5px 0 0;
-		// 	box-shadow: 0px 0px 10px rgba(#b1b1b0, 1);
-
-		// 	.shop-list {
-		// 		display: block;
-		// 	}
-
-		// 	.toggler {
-		// 		&:before,
-		// 		&:after {
-		// 			display: block;
-		// 		}
-		// 	}
-		// }
 
 		.toggler {
 			position: relative;
@@ -359,6 +341,7 @@
 			left: -1px;
 			transition: 0;
 			height: auto;
+			right: auto;
 			width: inherit;
 		}
 
