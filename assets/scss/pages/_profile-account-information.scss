@@ -1,0 +1,58 @@
+/*PROFILE ACCOUNT INFORMATION*/
+
+.account-information {
+  border: 1px solid #d3d2d2;
+  margin-bottom: 30px;
+  padding: 0 15px 0 15px;
+
+  @media (min-width: $responsive-tablet) {
+  	padding: 0 25px 0 25px;
+  }
+
+  .info-line {
+  	
+  	padding: 15px 0 15px 0;
+  	font-weight: 500;
+  	font-size: 16.57px;
+  	color: #1a1a18;
+  	justify-content: space-between;
+	  display: flex;
+		align-items: flex-end;
+  	
+
+  	@media (min-width: $responsive-tablet) {
+  		padding: 25px 120px 35px 0;
+  	}
+
+  	&:not(:last-child) {
+  		border-bottom: 1px solid #d3d2d2;
+  	}
+
+  	.field-name {
+	  	margin-bottom: 15px;
+	  }
+  }
+
+  .change-link {
+  	display: block;
+  	color: #84c225;
+  	text-decoration: underline;
+  	font-weight: 400;
+
+  	&:hover {
+  		text-decoration: none;
+  	}
+  }
+
+  .add-link {
+  	width: 100%;
+  	margin-top: 10px;
+  	display: block;
+
+  	@media (min-width: $responsive-tablet) {
+  		width: auto;
+  		display: inline;
+  		margin-left: 10px;
+  	}
+  }
+}
