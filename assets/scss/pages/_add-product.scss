@@ -66,6 +66,14 @@ section.manage-store {
 				background: url(assets/images/order-details-icons.png) no-repeat 0px -134px;
     	}
     }
+
+    &.addresses {
+    	&:before {
+				width: 11px;
+				height: 13px;
+				background: url(assets/images/order-details-icons.png) no-repeat 0px -120px;
+    	}
+    }
 	}
 
 	.submit-btns {

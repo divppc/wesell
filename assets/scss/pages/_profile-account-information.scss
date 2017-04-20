@@ -30,7 +30,32 @@
 
   	.field-name {
 	  	margin-bottom: 15px;
+
+      &.primary-address {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
 	  }
+
+    .edit-links {
+
+      a {
+        display: block;
+        white-space: nowrap;
+        margin-bottom: 15px;
+        font-size: 14px;
+
+        @media (min-width: $responsive-tablet) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .address-line {
+
+    @extend .info-line;
+    align-items: flex-start;
   }
 
   .change-link {

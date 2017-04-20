@@ -1,0 +1,39 @@
+/*SHIPPING ADDRESS*/
+.new-address {
+	width: 100%;
+
+	.form-field {
+		max-width: 450px;
+
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+
+		label {
+			margin-bottom: 5px;
+			display: block;
+
+			@media (min-width: $responsive-tablet) {
+				margin-bottom: 10px;
+			}
+		}
+
+		input,
+		select {
+			width: 100%;
+		}
+
+		input {
+
+			&[type="checkbox"] {
+
+				&+label {
+
+					&:before {
+						top: 1px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -470,6 +470,27 @@ section.manage-store {
 				}
 			}
 
+			&.save {
+				background: #84C225;
+				text-transform: uppercase;
+				max-width: 215px;
+
+				&:hover {
+					background: darken(#84C225, 3%);
+				}
+
+				&:before {
+					width: 15px;
+					height: 15px;
+					background: url("assets/images/add-product-icons.png") no-repeat 0px -138px;
+					margin-right: 10px;
+
+					@media (min-width: $responsive-tablet) {
+						margin-right: 28px;
+					}
+				}
+			}
+
 			&.print {
 				background: #649c11;
 				margin-right: 10px;
