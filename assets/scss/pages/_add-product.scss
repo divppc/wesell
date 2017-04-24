@@ -54,7 +54,7 @@ section.manage-store {
     &.bidding {
     	&:before {
 				width: 17px;
-				height: 17px;
+				height: 16px;
 				background: url("assets/images/manage_store_icons.png") no-repeat 0px -88px;
     	}
     }
@@ -80,6 +80,14 @@ section.manage-store {
 				width: 15px;
 				height: 13px;
 				background: url("assets/images/cart-icons.png") no-repeat 0px -148px;
+    	}
+    }
+
+    &.bids {
+    	&:before {
+				width: 16px;
+				height: 17px;
+				background: url("assets/images/bids-history-icons.png") no-repeat 0px 0;
     	}
     }
 	}

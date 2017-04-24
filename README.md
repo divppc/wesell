@@ -25,3 +25,4 @@ Profile Account Information http://wesell.div.agency/profile-account-information
 Manage Store- Orders List http://wesell.div.agency/manage-store-orders-list.html <br>
 Shipping Addresses http://wesell.div.agency/shipping-addresses.html <br>
 Followed Searches http://wesell.div.agency/followed-searches.html <br>
+Auction Details http://wesell.div.agency/auction-details.html <br>

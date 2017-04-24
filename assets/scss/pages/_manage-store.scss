@@ -127,6 +127,10 @@ section.manage-store {
 		}
 	}
 
+	.bids-table {
+		height: auto;
+	}
+
 	.title-panel {
 		display: flex;
 		align-items: center;
@@ -148,7 +152,11 @@ section.manage-store {
 
 		&.add-product-item {
 			margin-bottom: 5px;
-		}	
+		}
+
+		&+.bid-container {
+			margin-bottom: 15px;
+		}
 	}
 
 	.counter {
