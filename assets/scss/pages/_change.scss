@@ -1,0 +1,50 @@
+/*CHANGE PAGES*/
+.change-data {
+	padding: 15px;
+	border: 1px solid #d3d2d2;
+
+	@media (min-width: $responsive-tablet) {
+		padding: 25px;
+	}
+
+	.field {
+		padding: 5px 0;
+	}
+
+	label {
+    font-weight: 500;
+    font-size: 16.57px;
+    color: #1a1a18;
+    display: block;
+    margin-bottom: 5px;
+	}
+
+	input,
+	select {
+    display: block;
+    height: 36px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #bebdbc;
+    display: block;
+    width: 100%;
+	}
+
+	input {
+		padding: 0 10px;
+	}
+
+	select {
+		padding: 0 0 0 10px;
+		max-width: 400px;
+	}
+
+	&+.submit-btns {
+		margin-top: 20px;
+		justify-content: flex-end;
+
+		@media (min-width: $responsive-tablet) {
+			margin-top: 30px;
+		}
+	}
+}

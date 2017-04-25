@@ -26,3 +26,7 @@ Manage Store- Orders List http://wesell.div.agency/manage-store-orders-list.html
 Shipping Addresses http://wesell.div.agency/shipping-addresses.html <br>
 Followed Searches http://wesell.div.agency/followed-searches.html <br>
 Auction Details http://wesell.div.agency/auction-details.html <br>
+Change Password http://wesell.div.agency/change-password.html <br>
+Change Email http://wesell.div.agency/change-email.html <br>
+Secret Question http://wesell.div.agency/secret-question.html <br>
+Change Time Zone http://wesell.div.agency/change-time-zone.html <br>
