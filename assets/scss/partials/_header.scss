@@ -72,7 +72,7 @@ header {
 		.user-panel {
 			margin-right: 30px;
 
-			a {
+			&>a {
 				&:first-child {
 					&:after {
 						height: 12px;
@@ -181,16 +181,143 @@ ul.language-panel {
 				display: block;
 
 				&.flag-en {
-					background: url("assets/images/flags.png") no-repeat 0px 0px;
+					background: url("assets/images/icons.png") no-repeat 0px -1345px;
 				}
 
 				&.flag-ru {
-					background: url("assets/images/flags.png") no-repeat 0px -18px;
+					background: url("assets/images/icons.png") no-repeat 0px -1363px;
 				}
 
 				&.flag-ch {
-					background: url("assets/images/flags.png") no-repeat 0px -36px;
+					background: url("assets/images/icons.png") no-repeat 0px -1381px;
 				}
+			}
+		}
+	}
+}
+
+.authorized-user {
+	position: relative;
+
+	@media (min-width: $responsive-desktop) {
+		&:hover {
+
+			label {
+				border-top: 1px solid #b1b1b0;
+		    border-left: 1px solid #b1b1b0;
+		    border-right: 1px solid #b1b1b0;
+		    border-radius: 5px 5px 0 0;
+		    background: #fff;
+	  		box-shadow: 0px 0px 10px #b1b1b0;
+			}
+
+			ul {
+				display: block;
+
+				&:after {
+					display: block;
+				}
+			}
+		}
+	}
+
+	label {
+		padding: 10px;
+		cursor: pointer;
+		border: 1px solid transparent;
+		display: flex;
+		align-items: center;
+
+		&:before {
+			display: block;
+	    content: '';
+		  width: 14px;
+	    height: 14px;
+	    background: url(assets/images/icons.png) no-repeat 0px -1644px;
+	    margin-right: 10px;
+		}
+	}
+
+	input {
+		display: none;
+
+		@media (max-width: $responsive-desktop) {
+
+			&:checked {
+
+				&+label {
+			    border-top: 1px solid #b1b1b0;
+			    border-left: 1px solid #b1b1b0;
+			    border-right: 1px solid #b1b1b0;
+			    border-radius: 5px 5px 0 0;
+			    background: #fff;
+	    		box-shadow: 0px 0px 10px #b1b1b0;
+				}
+
+				&~ul {
+					display: block;
+
+					&:after {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	ul {
+		position: absolute;
+		width: 100%;
+		z-index: 4;
+		top: calc(100% + 8px);
+		right: 0;
+		padding-bottom: 10px;
+		display: none;
+		border-radius: 0 0 5px 5px;
+		background: #fff;
+    box-shadow: 0px 0px 10px #b1b1b0;
+    border-bottom: 1px solid #b1b1b0;
+    border-left: 1px solid #b1b1b0;
+    border-right: 1px solid #b1b1b0;
+
+    &:after {
+	    display: none;
+	    content: '';
+	    width: 100%;
+	    height: 10px;
+	    background: #fff;
+	    z-index: 10;
+	    border-left: 1px solid #b1b1b0;
+	    border-right: 1px solid #b1b1b0;
+	    position: absolute;
+	    left: -1px;
+	    top: -10px
+	  }
+	}
+
+	li {
+		display: block;
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+		padding: 5px 15px;
+		font-weight: 500;
+
+		&:before {
+	    content: '';
+	    width: 5px;
+	    height: 8px;
+	    background: transparent;
+	    margin-right: 12px;
+		}
+
+		&:hover {
+			background: #f2f2f2;
+
+			&:before {
+				background: url(assets/images/icons.png) no-repeat 0px -378px;
 			}
 		}
 	}

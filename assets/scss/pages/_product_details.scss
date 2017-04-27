@@ -128,19 +128,19 @@ section.product {
 			width: 20px;
 			height: 70px;
 			cursor: pointer;
-			background: url("assets/images/product-icons.png") no-repeat;
+			background: url("assets/images/icons.png") no-repeat;
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
 
 			&.left-arrow {
 				left: 0;
-				background-position: 0px -102px;
+				background-position: 0px -1852px;
 			}
 
 			&.right-arrow {
 				right: 0;
-				background-position: 0px -171px;
+				background-position: 0px -1921px;
 			}
 		}
 	}
@@ -189,7 +189,7 @@ section.product {
 			position: absolute;
 			top: 1px;
 			left: 0;
-			background: url("assets/images/product-icons.png") no-repeat 0px 0px;
+			background: url("assets/images/icons.png") no-repeat 0px -1750px;
 		}
 
 		&:after {
@@ -236,7 +236,7 @@ section.product {
 					display: block;
 					content: '';
 					margin-right: 20px;
-					background: url("assets/images/product-icons.png") no-repeat;
+					background: url("assets/images/icons.png") no-repeat;
 				}
 
 				@media (min-width: $responsive-mobile) {
@@ -263,7 +263,7 @@ section.product {
 					&:before {
 						width: 20px;
 						height: 17px;
-						background-position: 0 -16px;
+						background-position: 0 -1766px;
 					}
 				}
 
@@ -281,7 +281,7 @@ section.product {
 					&:before {
 						width: 16px;
 						height: 17px;
-						background-position: 0 -33px;
+						background-position: 0 -1783px;
 					}
 				}
 			}
@@ -296,14 +296,15 @@ section.product {
 				line-height: 31px;
 
 				&:before {
-					width: 17px;
+					width: 19px;
 					height: 15px;
 					display: block;
 					content: '';
 					position: absolute;
 					top: 7px;
 					left: 0;
-					background: url("assets/images/product-icons.png") no-repeat 0px -49px;
+					background: url("assets/images/icons.png") no-repeat;
+					background-position: 0px -1280px;
 				}
 
 				&:hover {
@@ -466,7 +467,7 @@ section.product {
 			display: block;
 			content: '';
 			margin-right: 30px;
-			background: url("assets/images/product-icons.png") no-repeat 0px -64px;
+			background: url("assets/images/icons.png") no-repeat 0px -826px;
 		}
 	}
 
@@ -546,7 +547,7 @@ section.product {
 				display: block;
 				content: '';
 				margin-right: 25px;
-				background: url("assets/images/product-icons.png") no-repeat;
+				background: url("assets/images/icons.png") no-repeat;
 			}
 
 			&:first-child {
@@ -556,7 +557,7 @@ section.product {
 				&:before {
 					width: 13px;
 					height: 13px;
-					background-position: 0 -77px;
+					background-position: 0 -945px;
 				}
 
 				&:hover {
@@ -574,7 +575,7 @@ section.product {
 				&:before {
 					width: 14px;
 					height: 12px;
-					background-position: 0 -91px;
+					background-position: 0 -1840px;
 				}
 
 				&:hover {

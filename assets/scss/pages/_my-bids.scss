@@ -242,7 +242,7 @@
 						position: absolute;
 						top: 2px;
 						left: 0;
-						background: url("assets/images/product-icons.png") no-repeat 0px 0px;
+						background: url("assets/images/icons.png") no-repeat 0px -1750px;
 					}
 				}			
 
@@ -380,7 +380,7 @@
 						margin-right: 15px;
 						display: block;
 						content: '';
-						background: url("assets/images/purchase-history-icons.png") 0px -70px;
+						background: url("assets/images/icons.png") 0px -2061px;
 					}
 
 					&:hover {
@@ -471,7 +471,7 @@
 
 					span {
 						&:before {
-							background: url("assets/images/purchase-history-icons.png") no-repeat 0px -109px;
+							background: url("assets/images/icons.png") no-repeat 0px -2100px;
 						}
 					}
 				}
@@ -489,7 +489,7 @@
 						content: '';
 						width: 15px;
 						height: 15px;
-						background: url("assets/images/manage_store_icons.png") no-repeat 0px -89px;
+						background: url("assets/images/icons.png") no-repeat 0px -1489px;
 					}
 				}
 			}
@@ -507,7 +507,7 @@
 					&:before {
 						width: 13px;
 				    height: 13px;
-				    background: url(assets/images/manage_store_icons.png) no-repeat 0px -118px;
+				    background-position: 0 -1518px;
 					}
 				}
 			}

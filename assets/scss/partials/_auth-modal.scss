@@ -13,7 +13,7 @@
 	width: 18px;
 	height: 19px;
 	cursor: pointer;
-	background: url("assets/images/auth-icons.png") no-repeat 0px 0px;
+	background: url("assets/images/icons.png") no-repeat 0px -586px;
 	position: absolute;
 	top: 12px;
 	right: 12px;
@@ -168,24 +168,24 @@
 	i.mail-input {
 		width: 15px;
 		height: 11px;
-		background: url("assets/images/email_icon_1.png") no-repeat center;
+		background: url("assets/images/icons.png") no-repeat 0px -1314px;
 	}
 
 	i.mail-input-confirm {
 		width: 23px;
 		height: 18px;
-		background: url("assets/images/email_icon_2.png") no-repeat center;
+		background: url("assets/images/icons.png") no-repeat 0px -1325px;
 	}
 
 	i.password-input {
 		width: 15px;
 		height: 17px;
-		background: url("assets/images/auth-icons.png") no-repeat 0px -19px;
+		background: url("assets/images/icons.png") no-repeat 0px -605px;
 	}
 	i.password-input-confirm {
 		width: 22px;
 		height: 20px;
-		background: url("assets/images/auth-icons.png") no-repeat 0px -35px;
+		background: url("assets/images/icons.png") no-repeat 0px -622px;
 	}
 }
 
@@ -273,7 +273,7 @@
 		&:checked {
 			&+label {
 				&:before {
-					background: url("assets/images/auth-icons.png") no-repeat 0px -130px;
+					background: url("assets/images/icons.png") no-repeat 0px -716px;
 				}
 			}
 		}
@@ -293,7 +293,7 @@
 			content: '';
 			width: 16px;
 			height: 16px;
-			background: url("assets/images/auth-icons.png") no-repeat 0px -113px;
+			background: url("assets/images/icons.png") no-repeat 0px -699px;
 		}
 	}
 }
@@ -346,7 +346,7 @@
 		display: block;
 		width: 22px;
 		height: 19px;
-		background: url("assets/images/auth-icons.png") no-repeat 0px -93px;
+		background: url("assets/images/icons.png") no-repeat 0px -680px;
 		margin-right: 14px;
 	}
 }

@@ -107,7 +107,7 @@ section.advanced-search {
 				width: 11px;
 				height: 11px;
 				margin-right: 15px;
-				background: url("assets/images/manage_store_icons.png") no-repeat 0px -163px;
+				background: url("assets/images/icons.png") no-repeat 0px -1563px;
 
 				@media (min-width: $responsive-mobile) {
 					margin-right: 40px;
@@ -226,14 +226,14 @@ section.advanced-search {
 		    display: block;
 		    width: 16px;
 		    height: 16px;
-		    background: url(assets/images/auth-icons.png) no-repeat 0px -113px;
+		    background: url(assets/images/icons.png) no-repeat 0px -699px;
 			}
 		}
 
 		&:checked {
 			&+label {
 				&:before {
-			    background-position: 0 -130px;
+			    background-position: 0 -716px;
 				}
 			}
 		}
@@ -376,7 +376,7 @@ section.advanced-search {
 				height: 12px;
 				margin-right: 15px;
 				flex-shrink: 0;
-				background: url("assets/images/manage_store_icons.png") no-repeat 0px -118px;
+				background: url("assets/images/icons.png") no-repeat 0px -1518px;
 			}
 		}
 	}

@@ -59,7 +59,7 @@ section.manage-store {
 				box-shadow: inset 0px 8px 26px -11px rgba(0,0,0,0.75);
 
 				&:before {
-					background-position: 0 0;
+					background-position: 0 -1400px;
 				}
 			}
 		}
@@ -81,7 +81,7 @@ section.manage-store {
 			content: '';
 			width: 16px;
 			height: 16px;
-			background: url("assets/images/manage_store_icons.png") no-repeat 0px -16px;
+			background: url("assets/images/icons.png") no-repeat 0px -1416px;
 			margin-right: 20px;
 			flex-shrink: 0;
 		}
@@ -119,11 +119,10 @@ section.manage-store {
 			.subtitle {
 				&:before {
 					width: 15px;
-					height: 13px;
-					background: url("assets/images/purchase-history-icons.png") no-repeat 0px -148px;
+					height: 15px;
+					background: url("assets/images/icons.png") no-repeat 0px -2085px;
 	    	}
 			}
-
 		}
 	}
 
@@ -172,7 +171,7 @@ section.manage-store {
 			width: 16px;
 			height: 15px;
 			margin-right: 10px;
-			background: url("assets/images/manage_store_icons.png") no-repeat 0px -32px;
+			background: url("assets/images/icons.png") no-repeat 0px -1432px;
 
 			@media (min-width: $responsive-tablet) {
 				margin-right: 17px;
@@ -215,7 +214,7 @@ section.manage-store {
 			position: absolute;
 			top: 13px;
 			right: 10px;
-			background: url("assets/images/manage_store_icons.png") no-repeat 0px -48px;
+			background: url("assets/images/icons.png") no-repeat 0px -1448px;
 		}
 
 		input {
@@ -251,7 +250,7 @@ section.manage-store {
 				content: '';
 				width: 13px;
 				height: 13px;
-				background: url("assets/images/manage_store_icons.png") no-repeat 0px -58px;
+				background: url("assets/images/icons.png") no-repeat 0px -1458px;
 				margin-right: 20px;
 			}
 
@@ -283,7 +282,7 @@ section.manage-store {
 					span {
 						&:before {
 							width: 15px;
-							background-position: 0 -71px;
+							background-position: 0 -1471px;
 						}
 					}
 
@@ -297,7 +296,7 @@ section.manage-store {
 				&.auctions-label {
 					span {
 						&:before {
-							background-position: 0 -147px;
+							background-position: 0 -1547px;
 						}
 					}
 
@@ -331,7 +330,7 @@ section.manage-store {
 				&:before {
 					width: 16px;
 					height: 17px;
-					background-position: 0 -130px;
+					background-position: -1px -1530px;
 				}
 			}
 		}
@@ -343,7 +342,7 @@ section.manage-store {
 				&:before {
 					width: 15px;
 					height: 15px;
-					background-position: 0 -88px;
+					background-position: 0 -1489px;
 				}
 			}
 		}
@@ -373,7 +372,7 @@ section.manage-store {
 			content: '';
 			margin-right: 10px;
 			flex-shrink: 0;
-			background: url("assets/images/manage_store_icons.png") no-repeat;
+			background: url("assets/images/icons.png") no-repeat;
 
 			@media (min-width: $responsive-tablet) {
 				margin-right: 20px;
@@ -457,7 +456,7 @@ section.manage-store {
 				&:before {
 					width: 14px;
 					height: 14px;
-					background-position: 0 -104px;
+					background: url("assets/images/icons.png") no-repeat 0px -944px;
 					margin-right: 10px;
 
 					@media (min-width: $responsive-tablet) {
@@ -476,7 +475,7 @@ section.manage-store {
 				&:before {
 					width: 13px;
 					height: 13px;
-					background-position: 0 -118px;
+					background-position: 0 -1518px;
 					margin-right: 10px;
 
 					@media (min-width: $responsive-tablet) {
@@ -517,7 +516,7 @@ section.manage-store {
 				&:before {
 					width: 14px;
 					height: 14px;
-					background: url("assets/images/order-details-icons.png") no-repeat 0px -32px;
+					background: url("assets/images/icons.png") no-repeat 0px -1605px;
 					margin-right: 10px;
 
 					@media (min-width: $responsive-tablet) {
@@ -530,7 +529,7 @@ section.manage-store {
 				display: block;
 				content: '';
 				flex-shrink: 0;
-				background: url("assets/images/manage_store_icons.png") no-repeat;
+				background: url("assets/images/icons.png") no-repeat;
 			}
 		}
 	}
@@ -566,7 +565,7 @@ section.manage-store {
 		    content: '';
 		    width: 16px;
 		    height: 16px;
-		    background: url(assets/images/auth-icons.png) no-repeat 0px -113px;
+		    background: url(assets/images/icons.png) no-repeat 0px -699px;
 			}
 
 			@media (min-width: $responsive-tablet) {
@@ -583,7 +582,7 @@ section.manage-store {
 		&:checked {
 			&+label {
 				&:before {
-					background-position: 0 -130px;
+					background-position: 0 -716px;
 				}
 			}
 		}
@@ -920,7 +919,7 @@ section.manage-store {
 	    display: block;
 	    width: 16px;
 	    height: 16px;
-	    background: url(assets/images/auth-icons.png) no-repeat 0px -113px;
+	    background: url(assets/images/icons.png) no-repeat 0px -699px;
 
 	    @media (min-width: $responsive-tablet) {
 	    	margin: 0 auto;
@@ -929,7 +928,7 @@ section.manage-store {
 
 		&:checked {
 			&+label {
-				background-position: 0 -130px;
+				background-position: 0 -716px;
 			}
 		}
 	}
@@ -1054,7 +1053,7 @@ section.manage-store {
     			width: 15px;
     			height: 15px;
     			margin-right: 15px;
-    			background: url("assets/images/cart-icons.png") 0px -75px;
+    			background: url("assets/images/icons.png") 0px -944px;
     		}
     	}
 		}
@@ -1139,14 +1138,14 @@ section.manage-store {
 		    height: 14px;
 		    content: '';
 		    margin-right: 10px;
-		    background: url(assets/images/cart-icons.png) no-repeat;
+		    background: url(assets/images/icons.png) no-repeat;
 			}
 
 			&.positive {
 				color: #84c225;
 
 				&:before {
-					background-position: 0 -120px;
+					background-position: 0 -989px;
 				}
 			}
 
@@ -1154,7 +1153,7 @@ section.manage-store {
 				color: #ef7f1a;
 
 				&:before {
-					background-position: 0 -134px;
+					background-position: 0 -1003px;
 				}
 			}
 		}
@@ -1369,7 +1368,7 @@ section.manage-store {
 					    width: 16px;
 					    height: 16px;
 					    padding-left: 0;
-					    background: url(assets/images/auth-icons.png) no-repeat 0px -113px;
+					    background: url(assets/images/icons.png) no-repeat 0px -699px;
 				  	}
 				  }
 				}
